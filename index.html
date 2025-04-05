@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Читалка</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="content">
+
+        <div class="content__wrap">
+            <div class="header">
+                <h1 class="header__chapter">Глава 1</h1>
+                <h2 class="header__title">ДОБРО ПОЖАЛОВАТЬ В ХАРРИКЕЙН, ШТАТ ЮТА</h2>
+            </div>
+
+            <div class="content__text">
+                <p class="text">
+                    Добро пожаловать в Харрикейн, штат Юта — При виде знака Чарли сухо улыбнулась и поехала дальше. По ту сторону знака мир был точно такой же, и все же, миновав его, она ощутила какое-то нехорошее предчувствие. Все вокруг казалось незнакомым, впрочем, ничего другого Чарли не ожидала — все равно на этой окраине только шоссе да пустыри. беспокойном гении он был до того безрассуден, что нередко спрашивал, чем заняты звезды над нами.
+                </p>
+                <p class="text">
+                    Интересно, как там остальные, как теперь живут. Десять лет назад они были лучшими друзьями, а потом случилось это, и все закончилось, по крайней мере, для Чарли. В последний раз она виделась с ребятами, когда ей было семь. В детстве они постоянно переписывались, особенно с Марлой — та строчила письма так же, как разговаривала: быстро и несвязно. Однако взрослея, они все постепенно отдалились друг от друга, так что предшествовавший этой поездке разговор вышел натянутым, полным неловких фраз. Чарли повторяла про себя имена, будто проверяя, что до сих пор их помнит: Марла, Джессика, Ламар, Карлтон, Джон. И Майкл… В конце концов, именно из-за Майкла она и приехала.
+                </p>
+                <p class="text">
+                    Прошло уже десять лет с тех пор, как он умер, с тех пор, как случилось это, и теперь его родители хотят, чтобы все они собрались почтить его память. Они пожелали собрать всех старых друзей сына, объявив, что учреждают в его честь специальную стипендию. Чарли понимала, что это благое дело, и все же идея снова встретиться казалась ей жутковатой. Девушка поежилась и отключила кондиционер, хоть и знала, что он работает не на полную мощность и в машине не холодно.
+                </p>
+                <p class="text">
+                    Въехав в центр города, Чарли начала узнавать местность: несколько магазинов и кинотеатр, над которым растянули огромный плакат, призывающий всех посмотреть самый нашумевший фильм этого лета.
+                </p>
+                <p class="text">
+                    Десять минут спустя она остановилась и вышла из машины.
+                </p>
+                <p class="text">
+                    Показавшийся впереди дом темнел на фоне ярко-синего неба, словно рана. Чарли прислонилась спиной к машине, у нее слегка закружилась голова. Пришлось несколько раз глубоко вздохнуть и выдохнуть, чтобы прийти в себя. Разумеется дом никуда не делся: несколько лет назад Чарли украдкой заглянула в банковскую книжку тети Джен и знала, что ипотека выплачена и тетя Джен по-прежнему платит налог на собственность.
+                </p>
+    
+            </div>
+
+            <div class="content__footer">
+                <p class="pages">123 / 768</p>
+            </div>
+        </div>
+
+        <div class="content__settings">
+
+            <button class="settings__close" title="Закрыть настройки"></button>
+
+            <div class="settings">
+
+                <form class="settings__form">
+                    <h3 class="settings__label">Настройки</h3>
+                    <label class="label">
+                        Шрифт:
+                        <select class="settings__input settings__font-change">
+                            <option value="StratosSkyeng"selected>StratosSkyeng</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Fira Sans">Fira Sans</option>
+                        </select>
+                    </label>
+
+                    <label class="label">
+                        Размер:
+                        <input type="number" class="settings__font-size settings__input" value="16" min="10" max="26">
+                        px
+                    </label>
+
+                    <label class="label">
+                        Цвет:
+                        <input type="color" class="settings__font-color settings__input">
+                    </label>
+
+                    <label class="label">
+                        Интервал:
+                        <input type="range" class="settings__input settings__interval" min="1" max="3" step="0.1" value="1.5">
+                    </label>
+
+                    <div class="label label-back-color">
+                        Цвет фона:
+                        <label class="settings__background-color-label white">
+                            <input type="radio" class="settings__back-color" name="font-color" value="white" checked>
+                        </label>
+                        <label class="settings__background-color-label bisque">
+                            <input type="radio" class="settings__back-color" name="font-color" value="bisque">
+                        </label>
+                        <label class="settings__background-color-label grey">
+                            <input type="radio" class="settings__back-color" name="font-color" value="grey">
+                        </label>
+                        <label class="settings__background-color-label black">
+                            <input type="radio" class="settings__back-color" name="font-color" value="black">
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
